@@ -41,12 +41,3 @@ class TriviaQuestions:
     def get_trivia_question_dict(self):
         return random.choice(self.trivia_questions)
 
-
-
-# # test the function
-# trivia = TriviaQuestions()
-# print(trivia.get_trivia_question())
-# print(trivia.check_trivia_answer("Y"))
-# print(trivia.check_trivia_answer("N"))
-# print(trivia.check_trivia_answer("T"))
-# print(trivia.check_trivia_answer("F"))
